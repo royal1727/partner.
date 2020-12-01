@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**خۆت لە ڤۆیس نیت بیمە کوێ من**'); 
+message.reply('** برۆ ڤۆیسێک**'); 
 
 } 
 
@@ -36,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(``) دابنێ لینکی سێرڤەری خۆت لیرە
     
-  client.channels.get("id جەنالەکە").send(
-`> sent By  <@${message.author.id}> ✅ 
+  client.channels.get("id channel").send(
+`> sent By  <@${message.author.id}> 
 ${message.content}`)
 }
     }
@@ -51,7 +51,7 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`شتێک بنوسە بۆ ستریمینگ`,"http://twitch.tv/PAYWANDcamper") 
+client.user.setGame(`linke servert bnera`,"http://twitch.tv/fatih") 
 });
 
 
